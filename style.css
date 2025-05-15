@@ -1,0 +1,577 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background: #fbfbfb;
+    color: #080808;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    /* border:2px solid rgb(3, 126, 3); */
+}
+.container{
+    width: 98%;
+    height: 98%;
+    /* border: 2px solid green; */
+    margin: 10px 10px;
+    background-color: #ffff;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid red; */
+    display: inline-flex;
+}
+.logo-border{
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid green; */
+}
+#logo-img{
+    width: 60px;
+    height: 60px;
+
+}
+.pages{
+    width: 50%;
+    height: 60px;
+    /* border: 2px solid yellow; */
+    margin-left: 35%;
+    text-align: center;
+}
+.pages ul li{
+    display: inline-flex;
+    
+    margin: 15px 25px;
+    color: #080808; 
+}
+.pages ul li a{
+    text-decoration: none !important;
+    color: #080808;
+    font-size: 18px;
+}
+.pages ul li a:hover{
+    border-bottom: 1px solid #080808;
+    border-width: 2px;
+    transition: 1s;
+}
+/* ----------------------------------MAIN */
+.main{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: inline-flex;
+}
+.main .texts{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid rgb(55, 18, 191); */
+}
+.main .pictures{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(255, 255, 0); */
+    border-radius: 30px;
+}
+.quote{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid green; */
+}
+.quote .text{
+    width: 40%;
+    height: 80%;
+    /* border: 2px solid red; */
+    margin: 10px 370px;
+    text-align: center;
+}
+.quote .text p{
+    padding: 15px 10px;
+}
+.main .texts h1{
+    margin: 50px 20px;
+    font-size: 100px;
+}
+.main .texts h2{
+    margin-top: -80px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.main .texts p{
+    margin-left: 20px;
+    /* margin-top: 15px; */
+    font-size: 40px;
+}
+#in{
+    color: orange;
+    font-size: 73px;
+
+}
+#d{
+    font-size: 73px;
+}
+#ia{
+    color: green;
+    font-size: 73px;
+}
+button a{
+    text-decoration: none;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border: 0.5px solid #080808;
+    background-color: transparent;
+    border-radius: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #080808;
+    text-decoration: none;
+}
+button:hover{
+    background-color:lightgreen;
+    transition: 0.5s;
+}
+#photo{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+/* ---------------------------------------OUR SERVICES-------------------------- */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background: #ffff;
+    color: #080808;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    /* border:2px solid red; */
+    
+}
+.container{
+    width: 98%;
+    height: 98%;
+    /* border: 2px solid green; */
+    margin: 10px 10px;
+    /* background-color: #ffff; */
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid red; */
+    display: inline-flex;
+}
+.logo-border{
+    width: 200px;
+    height: 60px;
+    /* border: 2px solid green; */
+}
+#logo-img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+
+}
+.pages{
+    width: 50%;
+    height: 60px;
+    /* border: 2px solid green; */
+    margin-left: 35%;
+    text-align: center;
+}
+.pages ul li{
+    display: inline-flex;
+    
+    margin: 15px 25px;
+    color: #080808; 
+}
+
+.pages ul li a{
+    text-decoration: none !important;
+    color: #080808;
+    font-size: 18px;
+}
+
+.pages ul li a:hover{
+    border-bottom: 1px solid #080808;
+    border-width: 2px;
+    transition: 1s;
+}
+.main{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    display: inline-flex;
+}
+.main .texts{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid rgb(114, 83, 224); */
+}
+.main .pictures{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid rgb(76, 86, 226); */
+    border-radius: 30px;
+}
+.quote{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid orange; */
+}
+.quote .text{
+    width: 40%;
+    height: 80%;
+    /* border: 2px solid red; */
+    margin: 10px 370px;
+    text-align: center;
+}
+.quote .text p{
+    padding: 10px 10px;
+}
+.quote .text span{
+    margin-left: 20px;
+}
+.main .texts h1{
+    margin: 100px 20px;
+    font-size: 50px;
+}
+.main .texts h2{
+    margin-top: -80px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.main .texts p{
+    margin-left: 20px;
+    /* margin-top: 15px; */
+    font-size: 40px;
+}
+#in{
+    color: orange;
+    font-size: 73px;
+
+}
+#d{
+    font-size: 73px;
+}
+#ia{
+    color: green;
+    font-size: 73px;
+}
+button a{
+    text-decoration: none;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border: 0.5px solid #080808;
+    background-color: transparent;
+    border-radius: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #080808;
+    text-decoration: none;
+}
+button:hover{
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+#photo{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.head{
+    text-align: center;
+    /* border: 1px solid green; */
+    font-size: 25px;
+
+}
+.mainContainer{
+    /* border: 1px solid #ece1de; */
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    /* background-color: #F6F2F1; */
+    margin-top: 10%;
+}
+
+#image img{
+  /* border: 2px solid blue; */
+  width: 30%;
+  height: 50%;
+  margin-bottom: -2%;
+  margin-left: 2%;
+}
+
+#content{
+    /* border: 1px solid rgb(167, 51, 51); */
+    width: 63%;
+    height: 100%;
+    justify-content: center;
+    margin-top: -525px;
+    margin-left: 37%;
+    background-color: #F6F2F1;
+    
+}
+#content h2{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+#content h4{
+    font-size: 25px;
+    margin: 20px 30px;
+}
+
+#content p{
+    margin: 20px 30px;
+}
+
+.copyright{
+    /* border: 1px solid blue; */
+    width: 45%;
+    height: 10%;
+    text-align: center;
+    margin-left: 30%;
+    padding-top: -15px;
+    margin-top: 20%;
+}
+
+.mainContainer a{
+    text-decoration: none;
+}
+.mainContainer #aboutBtn{
+    width: 150px;
+    height: 50px;
+    border: 0.5px solid #080808;
+    background-color: transparent;
+    border-radius: 12px;
+    margin-left: 80%;
+    cursor: pointer;
+    margin-top: -50px;
+}
+.mainContainer #aboutBtn:hover{
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+/* ===============contact us================ */
+
+
+
+.form{
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 70%;
+    padding-top: 50px;
+    margin: 20px 40px;
+    /* margin-bottom: -50%; */
+}
+#content #h22{
+    font-size: 50px;
+    margin-left: 14%;
+    margin-top: 10%;
+}
+#content #h222{
+    font-size: 50px;
+    margin-left: 14%;
+}
+
+.mainContainer #content #h44{
+    font-size: 25px;
+    margin-left: 14%;
+    margin-top: -20%;
+}
+.input-group{
+    margin: 30px 120px;
+    
+}
+.input-group #txt{
+    font-size: 20px;
+}
+.inpt{
+    width: 50%;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+#contactBtn{
+    margin-left: 52%;
+    margin-top: -20px;
+}
+
+#image #imagesx{
+    /* border: 1px solid white; */
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: -4%;
+    /* margin; */
+}
+.mainContainerContactUs{
+    /* border: 5x solid #ece1de; */
+    width: 100%;
+    height: 80%;
+    justify-content:center;
+    /* background-color: #F6F2F1; */
+}
+/* =======================Payment===== */
+.head{
+    border: 2px solid white;
+    color:rgb(128, 93, 93) ;
+    font-size: 25px;
+}
+.d1{
+    /* border: 1px solid green; */
+    width: 70%;
+    height: 100%;
+
+}
+.d2{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 100%;
+
+}
+.d2 #qr{
+    border-radius: 50%;
+}
+.contents{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 70%;
+    display: inline-flex;
+    /* justify-content: center; */
+    margin-left: 5%;
+}
+.contents #handshake{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.contents #qr{
+    width: 80%;
+    height: 60%;
+    margin: 15% 10%;
+}
+.contents #msg{
+
+    text-align: center;
+}
+.quotess{
+    /* border: 1px solid blue; */
+    width: 60%;
+    height: 8%;
+    text-align: center;
+    margin-left: 20%;
+}
+/* =========services======= */
+.parent{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+.child1{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.child2{
+    /* border: 1px solid red; */
+    width: 48%;
+    height: 100%;
+    text-align: center;
+}
+.parent .div1{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+    
+}
+.parent #div1{
+    margin-top: 5%;
+}
+#ourPartners{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 10%;
+}
+.parent .d1{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 5px 12px;
+}
+.parent .d2{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    border-radius: 12px;
+    padding-top: 20px;
+}
+.servicesQuotes{
+    /* border: 1px solid blue; */
+    width: 60%;
+    height: 8%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.parent .div1 .d1 #sf{
+    width: 250px;
+    height: 100px;
+
+}
+.parent .div1 .d2 #ap{
+    width: 300px;
+    height: 200px;
+}
+/* ------------------------------------------------- */
+.header .contain{
+    /* border: 2px solid blue; */
+    width:100%;
+    height: 98%;
+}
+.header .container .contain .div1{
+    /* border: 5px solid red; */
+    width:100%;
+    height: 70%;
+    margin-top: 5%;
+
+}
+.header .container .contain .div1 .t1 #tr1{
+    /* border: 2px solid green; */
+    width:50%;
+    height: 70%;
+    /* margin-top: 5%; */
+
+}
